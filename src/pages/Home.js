@@ -9,7 +9,7 @@ function Home() {
     
 
     return(<>
-    Hello {player}
+    <p>Hello {player}</p>
     <button onClick={increase}> Increase</button>
     </>
       )

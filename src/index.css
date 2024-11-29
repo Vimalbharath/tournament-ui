@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p {
+  text-align: center;
+  color: red;
+}
+
+button{
+align-self: center;
+background-color: brown;
+}
+
+@media screen and (max-width: 480px) {
+p {
+    text-align: right;
+    color: rgb(72, 13, 211);
+  }
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  p {
+    text-align: left;
+    color: rgb(72, 13, 211);
+  }
+
+  body {
+    background-color: rgb(211, 216, 203);
+  }
+}
