@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from 'react'
 
 function Home() {
+    const [player,setPlayer]=useState(0);
+    const increase=()=>{
+        alert("Match added");
+       return console.log('hello');
+    }
+    
+
     return(<>
-    Hello
+    Hello {player}
+    <button onClick={increase}> Increase</button>
     </>
       )
 }
