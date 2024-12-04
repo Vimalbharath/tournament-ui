@@ -16,6 +16,11 @@ function Home() {
 
     return(<>
     <p>Hello {player}</p>
+     <p>List of players: </p>
+     data.map((item)=return{
+      <p>{item.name}</p>
+     })
+
     <button onClick={increase}> Increase</button>
     </>
       )
