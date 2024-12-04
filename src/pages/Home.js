@@ -18,9 +18,9 @@ function Home() {
     <p>Hello {player}</p>
      <p>List of players: </p>
      {data.map((question) => {
-      const {id,name}={question}
+      const {id,name}=question
             return (
-            "hello"
+            <div key={id}>{name}</div>
             );
           })}
 
