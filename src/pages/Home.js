@@ -17,9 +17,12 @@ function Home() {
     return(<>
     <p>Hello {player}</p>
      <p>List of players: </p>
-     data.map((item)=return{
-      <p>{item.name}</p>
-     })
+     {data.map((question) => {
+      const {id,name}={question}
+            return (
+            "hello"
+            );
+          })}
 
     <button onClick={increase}> Increase</button>
     </>
