@@ -1,7 +1,17 @@
-import Home from './pages/Home';
+import React from 'react';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Sidebar from './Sidebar';
+
 function App() {
-  return <Home/>
-    
+  return (
+    <>
+      <Navbar />
+      <Sidebar />
+      <Hero />
+      
+    </>
+  );
 }
 
 export default App;
